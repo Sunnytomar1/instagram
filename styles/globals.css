@@ -14,3 +14,110 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.ot{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+text-align: center;
+
+margin-top: -5rem;
+}
+
+
+.provide{
+  padding:0.75rem;
+  --tw-bg-opacity: 1;
+background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
+border-radius:0.5rem;
+color:white;
+font-weight:700;
+border:2px solid white;
+margin-top:12rem;
+
+}
+
+
+.insta{
+  
+  width:25rem;
+}
+
+.p1{
+  font-size:0.75rem;
+}
+
+
+.dg{
+  position:fixed;
+z-index:10;
+top:0;
+bottom:20rem;
+left:0;
+right:0;
+overflow-y:auto;
+}
+
+
+.tt{
+  --tw-text-opacity: 1;
+color: rgba(156, 163, 175, var(--tw-text-opacity));
+text-transform:uppercase;
+}
+
+
+.sk{
+  object-fit:contain;
+  height:130px;
+  width:100%;
+  cursor:pointer;
+}
+
+
+.pt{
+  border-style:none;
+  background-color:white;
+  cursor:pointer;
+  --tw-text-opacity: 1;
+color: rgba(107, 114, 128, var(--tw-text-opacity));
+font-weight:800;
+
+}
+
+
+.mnt{
+  font-size:13px;
+  font-weight:700;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:500px;
+}
+
+.fill{
+  --tw-text-opacity: 1;
+color: rgba(239, 68, 68, var(--tw-text-opacity));
+cursor:pointer;
+}
+
+.pp{
+  margin-left:-2rem;
+  margin-top:-2.7rem;
+  font-weight:800;
+}
+
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+
